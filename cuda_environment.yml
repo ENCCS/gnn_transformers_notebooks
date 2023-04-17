@@ -1,0 +1,20 @@
+name: gnnt
+channels:
+  - pytorch
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.9
+  - jupyter
+  - jupyterlab
+  - rdkit
+  - pytorch
+  - torchvision 
+  - torchaudio
+  - pytorch-cuda=11.7
+  - tqdm
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip

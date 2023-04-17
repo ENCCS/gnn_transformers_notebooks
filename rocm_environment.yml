@@ -1,0 +1,19 @@
+name: gnnt
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - jupyter
+  - jupyterlab
+  - rdkit
+  - tqdm
+  - numpy
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - pip
+  - pip:
+    - torch
+    - torchvision
+    - torchaudio
+    - --index-url https://download.pytorch.org/whl/rocm5.4.2
